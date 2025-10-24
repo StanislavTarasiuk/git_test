@@ -1,13 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>stas</title>
-    <p>stas test</p> 
-    <p>main test</p>
+    <title>Сайт Стаса - Портфолио</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .section {
+            margin: 30px 0;
+            padding: 20px;
+            border-left: 4px solid #007bff;
+            background: #f8f9fa;
+        }
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .image-gallery img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 2px solid #ddd;
+        }
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .links a {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .links a:hover {
+            background: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="container">
+        <header>
+            <h1>Добро пожаловать на сайт Стаса! 🚀</h1>
+            <p>Привет! Меня зовут Стас, и это мой личный сайт-портфолио. Здесь вы найдете информацию обо мне, моих проектах и интересах.</p>
+        </header>
+
+        <section class="section">
+            <h2>Обо мне 👨‍💻</h2>
+            <p>Я увлекаюсь программированием и веб-разработкой. Люблю изучать новые технологии и создавать интересные проекты. В свободное время играю в The Sims 4 и изучаю различные аспекты IT.</p>
+            <p>Мои основные интересы включают:</p>
+            <ul>
+                <li>Веб-разработка (HTML, CSS, JavaScript)</li>
+                <li>Изучение новых технологий</li>
+                <li>Создание игровых модов</li>
+                <li>Фотография и дизайн</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Мои проекты 🛠️</h2>
+            <p>Вот некоторые из моих текущих проектов:</p>
+            <div class="links">
+                <a href="https://github.com" target="_blank">GitHub профиль</a>
+                <a href="https://codepen.io" target="_blank">CodePen проекты</a>
+                <a href="https://stackoverflow.com" target="_blank">Stack Overflow</a>
+                <a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Галерея изображений 📸</h2>
+            <p>Здесь представлены различные изображения, связанные с моими интересами:</p>
+            <div class="image-gallery">
+                <img src="https://picsum.photos/200/150?random=1" alt="Случайное изображение 1">
+                <img src="https://picsum.photos/200/150?random=2" alt="Случайное изображение 2">
+                <img src="https://picsum.photos/200/150?random=3" alt="Случайное изображение 3">
+                <img src="https://picsum.photos/200/150?random=4" alt="Случайное изображение 4">
+                <img src="https://picsum.photos/200/150?random=5" alt="Случайное изображение 5">
+                <img src="https://picsum.photos/200/150?random=6" alt="Случайное изображение 6">
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Полезные ресурсы 🔗</h2>
+            <p>Вот список полезных ресурсов для изучения программирования:</p>
+            <div class="links">
+                <a href="https://www.w3schools.com" target="_blank">W3Schools</a>
+                <a href="https://www.freecodecamp.org" target="_blank">FreeCodeCamp</a>
+                <a href="https://www.coursera.org" target="_blank">Coursera</a>
+                <a href="https://www.udemy.com" target="_blank">Udemy</a>
+                <a href="https://www.youtube.com" target="_blank">YouTube</a>
+                <a href="https://www.reddit.com/r/programming" target="_blank">Reddit Programming</a>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Технологии, которые я изучаю 🎯</h2>
+            <p>В настоящее время я изучаю следующие технологии:</p>
+            <ul>
+                <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript ES6+</li>
+                <li><strong>Frameworks:</strong> React, Vue.js</li>
+                <li><strong>Backend:</strong> Node.js, Python</li>
+                <li><strong>Базы данных:</strong> MySQL, MongoDB</li>
+                <li><strong>Инструменты:</strong> Git, VS Code, Webpack</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Контакты 📞</h2>
+            <p>Если хотите связаться со мной, используйте следующие способы:</p>
+            <div class="links">
+                <a href="mailto:stas@example.com">Email</a>
+                <a href="https://t.me/stas" target="_blank">Telegram</a>
+                <a href="https://vk.com/stas" target="_blank">VKontakte</a>
+                <a href="https://instagram.com/stas" target="_blank">Instagram</a>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Стас. Все права защищены. Создано с ❤️</p>
+        </footer>
+    </div>
 </body>
 </html>
